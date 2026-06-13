@@ -1,0 +1,99 @@
+/* Cкопіюй код з минулого уроку */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #a1eff0;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#answers-container {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 15px;
+ justify-content: center;
+}
+
+.answer-btn {
+padding: 15px 20px;
+border: 2px solid #00ffe1;
+border-radius: 12px;
+cursor: pointer;
+width: 48%;
+background: #14142b;
+color: #ffffff;
+font-size: 12px;
+box-shadow: 0 0 10px #00ffe1;
+transition: all 0.2s ease;
+}
+
+.hide {
+ display: none;
+}
+
+.correct {
+ background-color: rgb(0, 90, 0);
+ color: white;
+ box-shadow: 0 0 15px #00ff88;
+}
+
+.wrong {
+ background-color: rgb(189, 0, 0);
+ color: white;
+ box-shadow: 0 0 15px #ff004c;
+ }
+ 
+ #start-btn,
+ #restart-btn {
+padding: 15px 25px;
+border-radius: 10px;
+cursor: pointer;
+background: linear-gradient(90deg, #00ffe1, #0066ff);
+color: white;
+border: none;
+font-size: 14px;
+text-transform: uppercase;
+box-shadow: 0 0 15px #00ffe1;
+transition: all 0.2s ease;
+ }
+ 
+ 
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 2px solid #00ffe1;
+    border-radius: 10px;
+    background: rgba(20, 20, 40, 0.8);
+    box-shadow: 0 0 15px #00ffe1;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
